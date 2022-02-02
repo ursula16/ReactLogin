@@ -33,11 +33,11 @@ const Login= ()=>{
             }
             label="Remember me"
             />
-             <Typography>
+          
+            <Button type="submit" color="primary" fullWidth variant="contained" style={btnStyle}>Sign in</Button>
+            <Typography style={{textAlign: 'end', fontSize: '14px', marginBottom: '4px'}}>
                 <Link href="a" >Forgot Password?</Link>
             </Typography>
-            <Button type="submit" color="primary" fullWidth variant="contained" style={btnStyle}>Sign in</Button>
-           
             <Typography>Do not have an account?
                 <Link href="a" >Sign Up</Link>
             </Typography>
